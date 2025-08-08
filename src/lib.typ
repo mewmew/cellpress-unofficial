@@ -24,6 +24,7 @@
 		inset: (y: 5pt),
 		fill: none,
 		{
+			// TODO: move styling to `show table.header.where(level: 2)` show-set rule when https://github.com/typst/typst/issues/3640 is resolved.
 			set text(fill: color)
 			show text: emph
 			content
@@ -66,6 +67,7 @@
 		}
 	)
 	// table header style.
+	// TODO: use `show table.header.where(level: 1)` when https://github.com/typst/typst/issues/3640 is resolved.
 	show table.cell.where(y: 0): it => {
 		show text: strong
 		set text(fill: cellpress-red)
