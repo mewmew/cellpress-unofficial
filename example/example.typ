@@ -1,4 +1,6 @@
-#import "@local/cellpress-unofficial:0.1.0" as cellpress
+#set page(width: 10cm, height: auto)
+
+#import "@preview/cellpress-unofficial:0.1.0" as cellpress
 
 #show: cellpress.style-table
 

@@ -1,6 +1,6 @@
-// CELL press template.
+// Cell Press template.
 
-#let cellpress-red = rgb(169, 59, 69)  // CELL press red
+#let cellpress-red = rgb(169, 59, 69)  // Cell Press red
 #let zebra-gray    = rgb(luma(95.25%)) // rgb("#f3f3f3")
 
 // --- [ tables ] --------------------------------------------------------------
