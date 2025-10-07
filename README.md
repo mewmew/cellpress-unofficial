@@ -1,13 +1,17 @@
-# Cell Press tables
+# Unofficial Cell Press template
 
-Styles for tables as used in Cell Press articles.
+An unofficial template for Cell Press research articles.
 
-## Usage
+## Example
 
-See [example/example.typ](example/example.typ).
+See [template/report.typ](template/report.typ).
 
-![Example table](example/example.png)
+![Example research article](inc/thumbnail.png)
 
 ## Requires Typst v0.14
 
 Since this package relies on table subheaders ([typst/typst#6168](https://github.com/typst/typst/pull/6168)), it requires Typst v0.14+ (or a development version).
+
+## Logo
+
+The copyright of the [logo](inc/cell_press_logo.pdf) is held by Elsevier Inc.
