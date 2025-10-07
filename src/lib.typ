@@ -36,7 +36,7 @@
 	// tables
 	show figure.where(kind: table): set figure.caption(position: top, separator: [. ])
 	show figure.where(kind: table): set block(breakable: true, above: 14pt, below: 14pt)
-	show figure.where(kind: table): it => {
+	show figure.where(kind: table): outer => {
 		show figure.caption: it => align(
 			center,
 			[
@@ -44,7 +44,7 @@
 				#it.body
 			]
 		)
-		it
+		outer
 	}
 	show table: set table(
 		stroke: none,
