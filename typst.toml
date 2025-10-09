@@ -8,6 +8,7 @@ description = "Unofficial Cell Press template for Typst."
 repository = "https://github.com/mewmew/cellpress-unofficial"
 categories = ["paper"]
 disciplines = ["biology", "chemistry", "medicine"]
+compiler = "0.14.0"
 exclude = ["/example", "/inc/thumbnail.png"]
 
 [template]
