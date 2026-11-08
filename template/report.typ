@@ -1,4 +1,4 @@
-#import "@preview/cellpress-unofficial:0.1.1" as cellpress
+#import "@preview/cellpress-unofficial:0.1.2" as cellpress
 
 #show: cellpress.template.with(
 	journal:    "Neuron",  // "Cell Reports"

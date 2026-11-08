@@ -1,6 +1,6 @@
 [package]
 name = "cellpress-unofficial"
-version = "0.1.1"
+version = "0.1.2"
 entrypoint = "src/lib.typ"
 authors = ["Robin Eklind"]
 license = "0BSD"
@@ -9,7 +9,7 @@ repository = "https://github.com/mewmew/cellpress-unofficial"
 categories = ["paper"]
 disciplines = ["biology", "chemistry", "medicine"]
 compiler = "0.14.0"
-exclude = ["/example", "/inc/thumbnail.png"]
+exclude = ["/inc/thumbnail.png"]
 
 [template]
 path = "template"
